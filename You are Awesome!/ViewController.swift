@@ -22,5 +22,9 @@ class ViewController: UIViewController {
     
     }
     
+    @IBAction func massageOtherButtonPressed(_ sender: Any) {
+        print("The other message button was pressed!")
+        massageLabel.text = "You are Great!🙌🏼"
+    }
 }
 
