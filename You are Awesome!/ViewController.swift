@@ -14,21 +14,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("👍🏼 viewDidLoad has run👍🏼!")
-        massageLabel.text = "Fabulous? That's You!"
+        massageLabel.text = ""
         imageView.image = UIImage(named: "image0")
     }
 
     @IBAction func messageButtonPressed(_ sender: UIButton) {
         print("😎 The message button was pressed!")
-        massageLabel.text = "You are awesome!"
+        massageLabel.text = "You are Awesome!"
         imageView.image = UIImage(named: "image1")
     
     }
     
-    @IBAction func massageOtherButtonPressed(_ sender: Any) {
-        print("The other message button was pressed!")
-        massageLabel.text = "You are Great!🙌🏼"
-        imageView.image = UIImage(named: "image2")
-    }
 }
 
